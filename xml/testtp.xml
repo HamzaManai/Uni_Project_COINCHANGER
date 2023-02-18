@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stock>
+<categorie idcat="C00001">
+<produits>
+<produit idprod="1">
+<marque>Peugeot</marque>
+<modele>206</modele>
+<fournisseur_id>1</fournisseur_id>
+</produit>
+</produits>
+</categorie>
+<fournisseur idfour="1">
+<raison_sociale>raison sociale</raison_sociale>
+<adresse>France</adresse>
+<tel>12345678</tel>
+</fournisseur>
+</stock>

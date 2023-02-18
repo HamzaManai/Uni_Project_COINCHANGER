@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="categorie">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="produit">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="marque" type="xs:string"/>
+<xs:element name="modele" type="xs:string"/>
+<xs:element name="fournisseur_id" type="xs:integer"/>
+</xs:sequence>
+<xs:attribute name="idprod" type="xs:integer"/>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+<xs:attribute name="idcat" type="test"/>
+<xs:simpleType name="test">
+<xs:restriction base="xs:string">
+<xs:pattern value="C[a-z][a-z]"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:complexType>
+</xs:element>
+<xs:element name="fournisseur">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="raison_sociale" type="xs:string"/>
+<xs:element name="adresse" type="xs:string"/>
+<xs:element name="tel" type="xs:integer"/>
+</xs:sequence>
+<xs:attribute name="idfour" type="xs:integer"/>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+
